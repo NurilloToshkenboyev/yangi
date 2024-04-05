@@ -1,0 +1,62 @@
+.abaut-hero{
+    background-repeat: no-repeat;
+    background-image: url("../img/abaut-bg.jpg");
+    background-size: cover;
+    padding: 100px 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+.abaut {
+    padding-top: 32px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding-bottom: 40px;
+  }
+  
+  .abaut__logo {
+    display: inline-block;
+    width: 163px;
+  }
+  .abaut__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .abaut__list {
+    align-items: center;
+    gap: 33px;
+    display: none;
+  }
+  .abaut__link {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 125%;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #83888f;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .abaut {
+      padding-top: 40px;
+    }
+  
+    .abaut__logo {
+      width: 236px;
+    }
+    .abaut__btn {
+      display: none;
+    }
+    .abaut__list {
+      display: flex;
+    }
+  }
+  
+  @media screen and (min-width: 992px) {
+    .abaut {
+      padding-top: 43px;
+    }
+  }
